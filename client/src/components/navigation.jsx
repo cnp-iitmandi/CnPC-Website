@@ -6,7 +6,9 @@ import { logoutUser } from "../actions/authActions";
 import iitimage from "../images/resize.png";
 import logo from "./logo.ico";
 import noc from "./NOC.doc";
-import Brouchre from "./CnP Brochure 2024-25"
+import Brouchre from "./CnP Brochure 2024-25.pdf"
+import INF from "./INF 2024 - 25_Temp.docx"
+import JNF from "./JNF 2024 - 25_Temp.docx"
 class Navigation extends Component {
   onLogout = (e) => {
     e.preventDefault();
@@ -92,10 +94,10 @@ class Navigation extends Component {
                     id="innerDiv"
                     className="dropdown-content btn-group dropright"
                   >
-                    <a href="https://docs.google.com/document/d/1qXnT3VwJ91AdR88xXaBQGw9_Iss6DMVJ/edit" target={"_blank"}>
+                    <a href={INF} target={"_blank"}>
                     INF form
                     </a>
-                    <a href="https://docs.google.com/document/d/1tVSJ-L0pHXRQBv_EpMCEo5kyqVRhVe4y/edit" target={"_blank"}>
+                    <a href={JNF} target={"_blank"}>
                     JNF form
                     </a>
                   </div>
