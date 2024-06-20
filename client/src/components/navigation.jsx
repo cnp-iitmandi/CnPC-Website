@@ -6,6 +6,7 @@ import { logoutUser } from "../actions/authActions";
 import iitimage from "../images/resize.png";
 import logo from "./logo.ico";
 import noc from "./NOC.doc";
+import Brouchre from "./CnP Brochure 2024-25"
 class Navigation extends Component {
   onLogout = (e) => {
     e.preventDefault();
@@ -72,7 +73,7 @@ class Navigation extends Component {
                   )} */}
 
                   {/* <a href="#">Placement brochure</a> */}
-                  <a href="https://www.figma.com/design/ngcd1bCAPFBOCQdVRZkdHG/CnP-Brochure-2024-25?fuid=1255801949228038361" target="blank">
+                  <a href="{Brouchre}" target="blank">
                     Brochure
                   </a>
                   <a href="/past">
