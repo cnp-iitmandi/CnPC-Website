@@ -29,7 +29,7 @@ import texes from "../images/Company_Logos/texas.png";
 import samsung from "../images/Company_Logos/samsung.png";
 import adobe from "../images/Company_Logos/adobe.png";
 import director from "../images/Dir.png";
-import venkat from "../images/Venkat.jpg";
+import venkat from "../images/venky.jpg";
 import tni_fa from "../images/rahul_shreshtha.jpg"
 
 export const Home = (props) => {
