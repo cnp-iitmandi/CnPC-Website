@@ -29,7 +29,7 @@ import texes from "../images/Company_Logos/texas.png";
 import samsung from "../images/Company_Logos/samsung.png";
 import adobe from "../images/Company_Logos/adobe.png";
 import director from "../images/Dir.png";
-import venkat from "../images/venky.jpg";
+import fa from "../images/venky.jpg";
 import tni_fa from "../images/rahul_shreshtha.jpg"
 
 export const Home = (props) => {
@@ -257,20 +257,20 @@ export const Home = (props) => {
             <div className="col-lg-4 col-md-4 col-sm-12">
               <img
                 className="faculty-advisor"
-                src={venkat}
-                alt="Dr.Kala Venkata Uday"
+                src={fa}
+                alt="Dr. Venkata Uday Kala"
               />
             </div>
             <p className="bhashan2 col-lg-8 col-md-8 col-sm-12 backG">
               " In just fourteen years, IIT Mandi has built a strong reputation for its cutting-edge research and 
-              innovative teaching. Our programs focus on up-to-date scientific and technological knowledge, 
-              fostering intellectual growth and versatile skills under expert faculty. Our curriculum blends 
-              engineering fundamentals with basic sciences and humanities, preparing students to be 
-              responsible engineers and scientists. Alongside academics, our students excel in sports, culture, 
-              and event management, earning national and international recognition. The Career and 
-              Placement Cell (CnPC) invites your organization to our 2024-2025 campus placements. We are 
-              confident in the exceptional talent of our students and seek to match their abilities with your 
-              needs. We welcome your suggestions and look forward to a successful partnership"
+                innovative teaching. Our programs focus on up-to-date scientific and technological knowledge, 
+                fostering intellectual growth and versatile skills under expert faculty. Our curriculum blends 
+                engineering fundamentals with basic sciences and humanities, preparing students to be 
+                responsible engineers and scientists. Alongside academics, our students excel in sports, culture, 
+                and event management, earning national and international recognition. The Career and 
+                Placement Cell (CnPC) invites your organization to our 2024-2025 campus placements. We are 
+                confident in the exceptional talent of our students and seek to match their abilities with your 
+                needs. We welcome your suggestions and look forward to a successful partnership "
             </p>
             <br />
           </div>
@@ -285,7 +285,7 @@ export const Home = (props) => {
           <h3 className="faculty-head">From the Faculty Advisor ,Training and Internship</h3>
           <div className="about container-fluid row item">
             <p className="bhashan2 col-lg-8 col-md-8 col-sm-12 backG">
-              "IIT Mandi emphasizes practical experience as crucial to professional growth. In our fourteen 
+              " IIT Mandi emphasizes practical experience as crucial to professional growth. In our fourteen 
               years, we’ve excelled in innovative teaching and research, equipping students with advanced 
               scientific and technological skills. Our curriculum integrates engineering, sciences, and 
               humanities, instilling strong fundamentals and societal values. Students also engage in 
@@ -293,7 +293,7 @@ export const Home = (props) => {
               Career and Placement Cell (CnPC) invites your organization to offer internship opportunities for 
               our students. Internships provide vital real-world experience and industry exposure. We welcome 
               your collaboration and suggestions for our internship programs and look forward to a fruitful 
-              partnership."
+              partnership. "
               {/* <br />
               <br /> */}
             </p>

@@ -75,7 +75,7 @@ class Navigation extends Component {
                   )} */}
 
                   {/* <a href="#">Placement brochure</a> */}
-                  <a href="{Brouchre}" target="blank">
+                  <a href={Brouchre} target="blank">
                     Brochure
                   </a>
                   <a href="/past">
