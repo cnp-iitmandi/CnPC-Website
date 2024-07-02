@@ -9,12 +9,41 @@ import vineet from "../images/vineet.jpg";
 import ayushV from "../images/ayushV.jpg";
 import deepak from "../images/deepak.jpg";
 import sagar from "../images/sagar.jpg";
-import ayush from "../images/ayush.jpg";
+//import ayush from "../images/ayush.jpg";
 import nivedita from "../images/nivedita.jpg";
 import garima from "../images/garima.jpg";
 import yatharth from "../images/yatarth.jpg";
 import shobit from "../images/shobit.png";
 import shikha from "../images/shikha.png";
+import blank from "../images/backdrop.jpg" ;
+//this year
+import fa from "../images/venky.jpg";
+import tni_fa from "../images/rahul_shreshtha.jpg";
+import ayush from "../images/contact us/Ayush Gupta.png";
+import shahsank from "../images/contact us/Shashank Dwivedi.jpeg";
+import mohit from "../images/contact us/Mohit Mahajan.heic";
+import srijan from "../images/contact us/Srijan Sood.jpg" ;
+import saksham from "../images/contact us/Saksham Panpaliya.JPG"
+import ishan from "../images/contact us/Ishan Sharma.jpeg" ;
+import syed from "../images/contact us/Syed Shoaib.jpeg" ;
+import purwansh from "../images/contact us/Purwansh Sahu.jpg" ;
+import ayush_nigam from "../images/contact us/Ayush Nigam.jpg";
+import sujith from "../images/contact us/Sujith.jpeg" ;
+import ankit from "../images/contact us/Ankit Gurjar 2.jpg" ;
+import vasu from "../images/contact us/Vasu Jain.jpg"
+import rithika from "../images/contact us/Rithika Reddy Karra.jpg" ;
+import krishna from "../images/contact us/Krishna Kumar Dixit.jpg" ;
+import chinmayee from "../images/contact us/Chinmayee.jpeg";
+import harshita from "../images/contact us/Harshita.JPG";
+import rhythm from "../images/contact us/Rhythm Sharma.jpg";
+import srikanta from "../images/contact us/Srikanta Mondal.jpg";
+import praveen from "../images/contact us/Praveen Kumar.JPG";
+import aniket from "../images/contact us/Aniket Kumar.jpg";
+import arushi from "../images/contact us/Arushi.jpg";
+import ishita from "../images/contact us/Ishita Sharma.jpg";
+import jalaj from "../images/contact us/Jalaj Diggal.jpg";
+
+//
 import "react-super-responsive-table/dist/SuperResponsiveTableStyle.css";
 import { Form } from "react-bootstrap";
 export const Contact = (props) => {
@@ -43,12 +72,12 @@ export const Contact = (props) => {
             <figcaption className="snip1560">
               <div className="profile-image">
                 <img
-                  src="http://faculty.iitmandi.ac.in/~tushar/img/tj1.jpg"
+                  src={fa}
                   alt="tushar-jain"
                   className="image"
                 />
                 <h3 className="person">
-                  Dr. Tushar Jain
+                  Dr. Kala Venkata Uday
                   {/* <br />
                   <b>Email-{" "}</b>
                   <a href="mailto: advisorcnp@iitmandi.ac.in">
@@ -61,9 +90,38 @@ export const Contact = (props) => {
               <br />
               <div className="middle">
                 <p className="text">
-                  Dr. Tushar Jain
+                  Dr. Kala Venkata Uday
                   <br />
                   Faculty Advisor
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto: advisorcnp@iitmandi.ac.in">
+                    advisorcnp@iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: 01905267920">01905-267920</a>
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption className="snip1560">
+              <div className="profile-image">
+                <img
+                  src={tni_fa}
+                  alt="tushar-jain"
+                  className="image"
+                />
+                <h3 className="person">
+                  Dr. Rahul Shreshtha
+                </h3>
+              </div>
+              <br />
+              <div className="middle">
+                <p className="text">
+                  Dr. Rahul Shreshtha
+                  <br />
+                  Training and Internship,Faculty Advisor
                   <br />
                   <b>Email</b>-{" "}
                   <a href="mailto: advisorcnp@iitmandi.ac.in">
@@ -265,25 +323,26 @@ export const Contact = (props) => {
           <h2 className="placement">The Student Coordinator's Team</h2>
         </div>
         <div className="container-snip">
+          {/* UG Placement Coordinator */}
           <figure className="snip1559">
             <figcaption className="snip1560">
               <div className="profile-image">
-                <img src={vineet} className="image" />
-                <h3 className="person">Vineet Ahuja</h3>
+                <img src={ayush} className="image" />
+                <h3 className="person">Ayush Gupta</h3>
               </div>
               <br />
               <div className="middle">
                 <p className="text">
-                  Vineet Ahuja
+                  Ayush Gupta
                   <br />
-                  Overall Coordinator (B.Tech)
+                  Overall Coordinator (Placement, UG)
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: b19122@students.iitmandi.ac.in">
-                  b19122@students.iitmandi.ac.in
+                  <a href="mailto: b21184@students.iitmandi.ac.in">
+                  b21184@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +919911473244">+91-9911473244</a>
+                  <b>Phone</b>- <a href="tel: +918383909766">+91-8383909766</a>
                 </p>
               </div>
             </figcaption>
@@ -291,69 +350,94 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={harnaman} alt="Harnaman Kaur" className="image" />
-                <h3 className="person">Harnaman Kaur</h3>
+                <img src={shahsank} alt="Shashank Dwivedi" className="image" />
+                <h3 className="person">Shashank Dwivedi</h3>
               </div>
               <br />
               <div className="middle">
                 <p className="text">
-                  Harnaman Kaur
+                  Shashank Dwivedi
                   <br />
-                  Overall Coordinator (B.Tech)
+                  Overall Coordinator (Placement , UG)
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: b19085@students.iitmandi.ac.in">
-                  b19085@students.iitmandi.ac.in
+                  <a href="mailto: b21023@students.iitmandi.ac.in">
+                  b21023@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +919041590497">+91-9041590497</a>
+                  <b>Phone</b>- <a href="tel: +918707031121">+91-8707031121</a>
                 </p>
               </div>
+            </figcaption>
+          </figure>
+          {/* UG Intern Coordinator */}
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={srijan} alt="Srijan Sood" className="image" />
+                <h3 className="person">Sriajn Sood</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <p className="text">
+                  Sriajn Sood
+                  <br />
+                  Overall Coordinator (Internship, UG)
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto: b21227@students.iitmandi.ac.in ">
+                  b21227@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919108406906">+91-9108406906</a>
+                </p>
+              </div>
+              <br />
             </figcaption>
           </figure>
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={nivedita} alt="Nivedita Pramod" className="image" />
-                <h3 className="person">Nivedita Pramod</h3>
+                <img src={mohit} alt="Mohit Mahajan" className="image" />
+                <h3 className="person">Mohit Mahajan</h3>
               </div>
               <br />
               <div className="middle">
                 <p className="text">
-                  Nivedita Pramod
+                  Mohit Mahajan
                   <br />
-                  Overall Coordinator (B.Tech)
+                  Overall Coordinator (Internship ,UG)
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: b19098@students.iitmandi.ac.in ">
-                  b19098@students.iitmandi.ac.in
+                  <a href="mailto: b21055@students.iitmandi.ac.in">
+                    b21055@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +917012016415">+91-7012016415</a>
+                  <b>Phone</b>- <a href="tel: +919370588548">+91-9370588548</a>
                 </p>
               </div>
-              <br />
             </figcaption>
           </figure>
+          {/* PG Coordinator */}
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={deepak} alt="Deepak Kumar Sah" className="image" />
-                <h3 className="person">Deepak Kumar Sah</h3>
+                <img src={ishan} alt="Ishan Sharma" className="image" />
+                <h3 className="person">Ishan Sharma</h3>
               </div>
               <br />
               <div className="middle">
                 <p className="text">
-                  Deepak Kumar Sah
+                  Ishan Sharma
                   <br />
                   Overall Coordinator (PG)
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: t21260@students.iitmandi.ac.in">
-                    t21260@students.iitmandi.ac.in
+                  <a href="mailto: s23007@students.iitmandi.ac.in">
+                  s23007@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +919821764691">+91-9821764691</a>
+                  <b>Phone</b>- <a href="tel: +916388581883">+91-8979851665</a>
                 </p>
               </div>
             </figcaption>
@@ -361,121 +445,97 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img
-                  src={ayush}
-                  alt="Ayush Dwivedi"
-                  className="image"
-                />
-                <h3 className="person">Ayush Dwivedi</h3>
-              </div>
-              <br />
-              <div className="middle">
-                <p className="text">
-                  Ayush Dwivedi
-                  <br />
-                  Overall Coordinator (PG)
-                  <br />
-                  <b>Email</b>-{" "}
-                  <a href="mailto: v21093@students.iitmandi.ac.in">
-                  v21093@students.iitmandi.ac.in
-                  </a>
-                  <br />
-                  <b>Phone</b>- <a href="tel: +916388581883">+91-6388581883</a>
-                </p>
-              </div>
-            </figcaption>
-          </figure>
-          <figure className="snip1559">
-            <figcaption>
-              <div className="profile-image">
-                <img src={aryan} alt="Aryan" className="image" />
-                <h3 className="person">Aryan Goyal</h3>
+                <img src={syed} alt="Syed Shoaib" className="image" />
+                <h3 className="person">Syed Shoaib</h3>
               </div>
               <br />
               <div className="middle">
                 <div className="text">
-                  Aryan Goyal
+                  Syed Shoaib
+                  <br />
+                  Overall Coordinator(PG), Physics Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:v23099@students.iitmandi.ac.in">
+                  v23099@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918105309066">+91-8105309066</a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          {/* Superset Coordinator */}
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={purwansh} alt="Purwansh sahu" className="image" />
+                <h3 className="person">Purwansh sahu</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Purwansh sahu
+                  <br />
+                  Superset Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailtob21213@students.iitmandi.ac.in">
+                  b21213@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919399147060">+91-9399147060</a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          {/* Career Session Coordinator */}
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={ayush_nigam} alt="Ayush Nigam" className="image" />
+                <h3 className="person">Ayush Nigam</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Ayush Nigam
+                  <br />
+                  Career Session Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b20005@students.iitmandi.ac.in">
+                  b20005@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918874378280">+91-8874378280 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          {/* Branch Coordinators UG */}
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={saksham} alt="Saksham Panpaliya" className="image" />
+                <h3 className="person">Saksham Panpaliya</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <p className="text">
+                  Saksham Panpaliya
                   <br />
                   CSE Branch Coordinator
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto:b19073@students.iitmandi.ac.in">
-                  b19073@students.iitmandi.ac.in
+                  <a href="mailto:b21126@students.iitmandi.ac.in">
+                  b21126@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +919718877971">+91-9718877971</a>
-                </div>
-              </div>
-              <br />
-            </figcaption>
-          </figure>
-          <figure className="snip1559">
-            <figcaption>
-              <div className="profile-image">
-                <img src={yatharth} alt="Yatharth Mogra" className="image" />
-                <h3 className="person">Yatharth Mogra</h3>
-              </div>
-              <br />
-              <div className="middle">
-                <div className="text">
-                  Yatharth Mogra
-                  <br />
-                  DSE Branch Coordinator
-                  <br />
-                  <b>Email</b>-{" "}
-                  <a href="mailtob19272@students.iitmandi.ac.in">
-                  b19272@students.iitmandi.ac.in
-                  </a>
-                  <br />
-                  <b>Phone</b>- <a href="tel: +917568864147">+91-7568864147</a>
-                </div>
-              </div>
-              <br />
-            </figcaption>
-          </figure>
-          <figure className="snip1559">
-            <figcaption>
-              <div className="profile-image">
-                <img src={shobit} alt="Shobhit" className="image" />
-                <h3 className="person">Shobhit Rajput</h3>
-              </div>
-              <br />
-              <div className="middle">
-                <div className="text">
-                  Shobhit Rajput
-                  <br />
-                  EE branch Coordinator
-                  <br />
-                  <b>Email</b>-{" "}
-                  <a href="mailto:b19195@students.iitmandi.ac.in">
-                  b19195@students.iitmandi.ac.in
-                  </a>
-                  <br />
-                  <b>Phone</b>- <a href="tel: +918126588271">+91-8126588271 </a>
-                </div>
-              </div>
-              <br />
-            </figcaption>
-          </figure>
-          <figure className="snip1559">
-            <figcaption>
-              <div className="profile-image">
-                <img src={ayushV} alt="Ayush Singh Vardhan" className="image" />
-                <h3 className="person">Ayush Singh Vardhan</h3>
-              </div>
-              <br />
-              <div className="middle">
-                <p className="text">
-                  Ayush Singh Vardhan
-                  <br />
-                  ME Branch Coordinator
-                  <br />
-                  <b>Email</b>-{" "}
-                  <a href="mailto:b19241@students.iitmandi.ac.in">
-                  b19241@students.iitmandi.ac.in
-                  </a>
-                  <br />
-                  <b>Phone</b>- <a href="tel: +919528553052 ">+91-9528553052</a>
+                  <b>Phone</b>- <a href="tel: +918551874797 ">+91-8551874797</a>
                 </p>
               </div>
             </figcaption>
@@ -484,22 +544,22 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={shikha} alt="Shikha" className="image" />
-                <h3 className="person">Shikha</h3>
+                <img src={sujith} alt="Mothukuri Sujith" className="image" />
+                <h3 className="person">Mothukuri Sujith</h3>
               </div>
               <br />
               <div className="middle">
                 <div className="text">
-                  Shikha
+                  Mothukuri Sujith
                   <br />
-                  CE Branch Coordinator
+                  DSE Branch Coordinator
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto:b19057@students.iitmandi.ac.in">
-                    b19057@students.iitmandi.ac.in
+                  <a href="mailto:b21159@students.iitmandi.ac.in">
+                    b21159@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +917668853539 ">+91-7668853539 </a>
+                  <b>Phone</b>- <a href="tel: +917095654643 ">+91-7095654643 </a>
                 </div>
               </div>
               <br />
@@ -508,22 +568,335 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={sagar} alt="Sagar" className="image" />
-                <h3 className="person">Sagar Mishra</h3>
+                <img src={vasu} alt="Vasu Jain" className="image" />
+                <h3 className="person">Vasu Jain</h3>
               </div>
               <br />
               <div className="middle">
                 <div className="text">
-                  Sagar Mishra
+                  Vasu Jain
                   <br />
-                  Bio Eng. Branch Coordinator
+                  EE Branch Coordinator
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto:b19016@students.iitmandi.ac.in">
-                  b19016@students.iitmandi.ac.in
+                  <a href="mailto:b21233@students.iitmandi.ac.in">
+                  b21233@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +917352509910 ">+91-7352509910 </a>
+                  <b>Phone</b>- <a href="tel: +919958872818 ">+91-9958872818 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={ankit} alt="Ankit Gurjar" className="image" />
+                <h3 className="person">Ankit Gurjar</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Ankit Gurjar
+                  <br />
+                  ME Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b21328@students.iitmandi.ac.in">
+                  b21328@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +91789135024 ">+91-7891035024 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={rithika} alt="Rithika Reddy Karra" className="image" />
+                <h3 className="person">Rithika Reddy Karra</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Rithika Reddy Karra
+                  <br />
+                  CE Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b21050@students.iitmandi.ac.in">
+                  b21050@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919704195340 ">+91-9704195340 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={krishna} alt="Krishna Kumar Dixit" className="image" />
+                <h3 className="person">Krishna Kumar Dixit</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Krishna Kumar Dixit
+                  <br />
+                  Bio Eng Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b21013@students.iitmandi.ac.in">
+                  b21013@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918319742753 ">+91-8319742753 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={blank} alt="Bhanushree Chinta" className="image" />
+                <h3 className="person">Bhanushree Chinta</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Bhanushree Chinta
+                  <br />
+                  EP Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b21050@students.iitmandi.ac.in">
+                  b21050@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919704195340 ">+91-9704195340 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={chinmayee} alt="Chinmayee" className="image" />
+                <h3 className="person">Chinmayee</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Chinmayee
+                  <br />
+                  Non Core Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:b21123@students.iitmandi.ac.in">
+                  b21123@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918179563660 ">+91-8179563660 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          {/* Branch Coordinators PG */}
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={harshita} alt="Harshita" className="image" />
+                <h3 className="person">Harshita</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Harshita
+                  <br />
+                  MSc Applied Maths Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:v23008@students.iitmandi.ac.in">
+                  v23008@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918901629693 ">+91-8901629693 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={rhythm} alt="Rhythm Sharma" className="image" />
+                <h3 className="person">Rhythm Sharma</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Rhythm Sharma
+                  <br />
+                  MSc Chemistry Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:v23058@students.iitmandi.ac.in">
+                  v23058@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918923115553 ">+91-8923115553 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={praveen} alt="Praveen Kumar" className="image" />
+                <h3 className="person">Praveen Kumar</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Praveen Kumar
+                  <br />
+                  MSc Mathematics Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:@praveenprajapat75430@gmail.com">
+                  @praveenprajapat75430@gmail.com
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +917073009158 ">+91-7073009158 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={aniket} alt="Aniket Kumar" className="image" />
+                <h3 className="person">Aniket Kumar</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Aniket Kumar
+                  <br />
+                  Mtech CSE Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:t23189@students.iitmandi.ac.in">
+                  t23189@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919142811032 ">+91-9142811032 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={arushi} alt="Arushi" className="image" />
+                <h3 className="person">Arushi</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Arushi
+                  <br />
+                  STE Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:t23069@students.iitmandi.ac.in">
+                  t23069@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +91790 ">+91-7906821506 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={ishita} alt="Ishita" className="image" />
+                <h3 className="person">Ishita</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Ishita
+                  <br />
+                  Mtech Research Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:s23097@students.iitmandi.ac.in">
+                  s23097@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918894044799 ">+91-8894044799 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={jalaj} alt="Jalaj Diggal" className="image" />
+                <h3 className="person">Jalaj Diggal</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Jalaj Diggal
+                  <br />
+                  MSc Chemistry Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:v23062@students.iitmandi.ac.in">
+                  v23062@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918077298696 ">+91-8077298696 </a>
+                </div>
+              </div>
+              <br />
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={srikanta} alt="Srikanta Mondal" className="image" />
+                <h3 className="person">Srikanta Mondal</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Srikanta Mondal
+                  <br />
+                  MA Development Studies Branch Coordinator
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:a23010@students.iitmandi.ac.in">
+                  a23010@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +919064695779 ">+91-9064695779 </a>
                 </div>
               </div>
               <br />

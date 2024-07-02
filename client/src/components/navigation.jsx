@@ -61,9 +61,9 @@ class Navigation extends Component {
                   <a href="/Recpro">
                     Recruitment Process
                   </a>
-                  <a href="https://drive.google.com/file/d/1yzcZepfq2UIVK73xc09oosTrfFlxn5dF/view?usp=sharing" target="_blank" >
+                  {/*<a href="https://drive.google.com/file/d/1yzcZepfq2UIVK73xc09oosTrfFlxn5dF/view?usp=sharing" target="_blank" >
                     CnP policy for Company
-                  </a>
+                  </a>*/}
                   {/* {this.props.auth.isAuthenticated &&
                   this.props.auth.user.role == "recruiter" ? (
                     <a href="/dashboardRecruiter">Dashboard</a>

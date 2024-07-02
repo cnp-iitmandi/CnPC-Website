@@ -10,7 +10,7 @@ import Navigation from "./components/navigation";
 import { Footer } from "./components/footer";
 import { Home } from "./components/home";
 import { Carousal } from "./components/carousal";
-import { Acadmics } from "./components/Acadmics";
+import { Academics } from "./components/Academics";
 import { Programmes } from "./components/Programmes";
 import { Schools } from "./components/school";
 import { Recpro } from "./components/Recpro";
@@ -92,17 +92,9 @@ class App extends Component {
           <Navigation />
           <Routes>
             <Route exact path="/" element={[<Home />]}></Route>
-            <Route
-              exact
-              path="/achievement"
-              element={[<Achievement />]}
-            ></Route>
+            <Route exact path="/achievement" element={[<Achievement />]}></Route>
             <Route exact path="/past" element={[<Past />]}></Route>
-            <Route
-              exact
-              path="/acadmics"
-              element={[<Acadmics />]}
-            ></Route>
+            <Route exact path="/academics" element={[<Academics />]}></Route>
             {/* <Route exact path="/Programmes" element={<Programmes />}></Route> */}
             <Route exact path="/demographics" element={<Demo />}></Route>
             <Route exact path="/Recpro" element={<Recpro />}></Route>
