@@ -19,6 +19,7 @@ import blank from "../images/backdrop.jpg" ;
 //this year
 import fa from "../images/venky.jpg";
 import tni_fa from "../images/rahul_shreshtha.jpg";
+import venomesh from "../images/contact us/Venomesh.jpeg"
 import ayush from "../images/contact us/Ayush Gupta.png";
 import shahsank from "../images/contact us/Shashank Dwivedi.jpeg";
 import mohit from "../images/contact us/Mohit Mahajan.heic";
@@ -293,6 +294,30 @@ export const Contact = (props) => {
                   <b>Phone</b>- <a href="tel: +917807625022">+91-7807625022</a>
                 </p>
               </div>
+            </figcaption>
+          </figure>
+          <figure className="snip1559">
+            <figcaption>
+              <div className="profile-image">
+                <img src={venomesh} alt="Venomesh Rawat" className="image" />
+                <h3 className="person">Venomesh Rawat</h3>
+              </div>
+              <br />
+              <div className="middle">
+                <div className="text">
+                  Venomesh Rawat
+                  <br />
+                  Junior Superintendent
+                  <br />
+                  <b>Email</b>-{" "}
+                  <a href="mailto:a23010@students.iitmandi.ac.in">
+                  a23010@students.iitmandi.ac.in
+                  </a>
+                  <br />
+                  <b>Phone</b>- <a href="tel: +918181802419">+91-8181802419 </a>
+                </div>
+              </div>
+              <br />
             </figcaption>
           </figure>
           <figure className="snip1559">
@@ -664,30 +689,6 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={blank} alt="Bhanushree Chinta" className="image" />
-                <h3 className="person">Bhanushree Chinta</h3>
-              </div>
-              <br />
-              <div className="middle">
-                <div className="text">
-                  Bhanushree Chinta
-                  <br />
-                  EP Branch Coordinator
-                  <br />
-                  <b>Email</b>-{" "}
-                  <a href="mailto:b21050@students.iitmandi.ac.in">
-                  b21050@students.iitmandi.ac.in
-                  </a>
-                  <br />
-                  <b>Phone</b>- <a href="tel: +919704195340 ">+91-9704195340 </a>
-                </div>
-              </div>
-              <br />
-            </figcaption>
-          </figure>
-          <figure className="snip1559">
-            <figcaption>
-              <div className="profile-image">
                 <img src={chinmayee} alt="Chinmayee" className="image" />
                 <h3 className="person">Chinmayee</h3>
               </div>
@@ -896,7 +897,7 @@ export const Contact = (props) => {
                   a23010@students.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: +919064695779 ">+91-9064695779 </a>
+                  <b>Phone</b>- <a href="tel: +919064695779">+91-9064695779 </a>
                 </div>
               </div>
               <br />
