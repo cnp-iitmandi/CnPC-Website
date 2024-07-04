@@ -2,7 +2,8 @@ import React from "react";
 import ravinder from "../images/ravinder.jpeg";
 import "./Recpro.css";
 import nimisha from "../images/nimisha.jpg";
-import parmod from "../images/parmod.jpg";
+import parmod from "../images/Dinesh.png";
+import bhaskar from "../images/Dr. Baskar Bakthavachalu.png"
 import aryan from "../images/aryan.jpg";
 import harnaman from "../images/harnaman.jpg";
 import vineet from "../images/vineet.jpg";
@@ -174,9 +175,9 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={parmod} alt="Dr.Parmod-kumar" className="image" />
+                <img src={parmod} alt="Dr. Dinesh Singh" className="image" />
                 <h3 className="person">
-                  Dr. Parmod Kumar
+                  Dr. Dinesh Singh
                   {/* <br />
                   <b>Email</b>-{" "}
                   <a href="mailto: parmod@iitmandi.ac.in">
@@ -189,16 +190,16 @@ export const Contact = (props) => {
               <br />
               <div className="middle">
                 <p className="text">
-                  Dr. Parmod Kumar
+                  Dr. Dinesh Singh
                   <br />
                   Faculty Co-Advisor
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: parmod@iitmandi.ac.in">
-                    pramod@iitmandi.ac.in
+                  <a href="mailto: dineshsingh.iitmandi.ac.in"> 
+                    dineshsingh.iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: 01905267264">01905-267264</a>
+                  <b>Phone</b>- <a href="tel: 01905267222">01905-267222</a>
                 </p>
               </div>
               <br />
@@ -208,7 +209,7 @@ export const Contact = (props) => {
             <figcaption>
               <div className="profile-image">
                 <img
-                  src="	http://iitmandi.ac.in/Schools/SBS/faculty/baskar.jpg"
+                  src= {bhaskar}
                   alt="Dr.Bhaskar"
                   className="image"
                 />
