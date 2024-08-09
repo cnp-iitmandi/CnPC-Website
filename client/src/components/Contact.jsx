@@ -20,6 +20,7 @@ import blank from "../images/backdrop.jpg" ;
 //this year
 import fa from "../images/venky.jpg";
 import tni_fa from "../images/rahul_shreshtha.jpg";
+import DeepakSachan from "../images/DrDeepakSachan.jpg"
 import venomesh from "../images/contact us/Venomesh.jpeg"
 import ayush from "../images/contact us/Ayush Gupta.png";
 import shahsank from "../images/contact us/Shashank Dwivedi.jpeg";
@@ -175,9 +176,9 @@ export const Contact = (props) => {
           <figure className="snip1559">
             <figcaption>
               <div className="profile-image">
-                <img src={parmod} alt="Dr. Dinesh Singh" className="image" />
+                <img src={DeepakSachan} alt="Dr. Deepak Sachan" className="image" />
                 <h3 className="person">
-                  Dr. Dinesh Singh
+                  Dr. Deepak Sachan
                   {/* <br />
                   <b>Email</b>-{" "}
                   <a href="mailto: parmod@iitmandi.ac.in">
@@ -190,16 +191,16 @@ export const Contact = (props) => {
               <br />
               <div className="middle">
                 <p className="text">
-                  Dr. Dinesh Singh
+                  Dr. Deepak Sachan
                   <br />
                   Faculty Co-Advisor
                   <br />
                   <b>Email</b>-{" "}
-                  <a href="mailto: dineshsingh.iitmandi.ac.in"> 
-                    dineshsingh.iitmandi.ac.in
+                  <a href="mailto: dsachan@iitmandi.ac.in"> 
+                    dsachan@iitmandi.ac.in
                   </a>
                   <br />
-                  <b>Phone</b>- <a href="tel: 01905267222">01905-267222</a>
+                  <b>Phone</b>- <a href="tel: 01905-267737">01905-267737</a>
                 </p>
               </div>
               <br />
