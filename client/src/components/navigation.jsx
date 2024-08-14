@@ -78,6 +78,24 @@ class Navigation extends Component {
                   <a href={Brouchre} target="blank">
                     Brochure
                   </a>
+                  <a id="outerDiv" className="dropbtn">
+                  Brouchure{" "}
+                  <i
+                    style={{ float: "right", marginTop: "4px" }}
+                    class="fas fa-caret-right"
+                  ></i>
+                  <div
+                    id="innerDiv"
+                    className="dropdown-content btn-group dropright"
+                  >
+                    <a href={Brouchre} target={"_blank"}>
+                    UG Brouchre
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1VmTnauNIU0ZrnjIA4raleDrp3UpKgjvZ" target={"_blank"}>
+                    PG Brouchre
+                    </a>
+                  </div>
+                </a>
                   <a href="/past">
                     Past Recruiters
                   </a>
